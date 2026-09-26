@@ -1,2 +1,27 @@
-<a href="/pemrograman-web-a/pertemuan-01/index.html">back to index</a>
-Ini adalah page 2
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Halaman 2 | Belajar Web</title>
+	<style>
+		* { box-sizing: border-box; }
+		body { margin: 0; min-height: 100vh; display: grid; place-items: center; color: #17233c; background: #ffc857; font-family: Georgia, "Times New Roman", serif; }
+		.page { width: min(680px, calc(100% - 40px)); padding: 48px; background: #fffaf1; box-shadow: 14px 14px 0 #17233c; }
+		.number { color: #ef6f61; font: bold .8rem Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; }
+		h1 { margin: 18px 0 12px; font-size: clamp(2.8rem, 8vw, 5.5rem); line-height: .95; }
+		p { max-width: 470px; color: #667085; font: 1rem/1.7 Arial, sans-serif; }
+		a { display: inline-block; margin-top: 24px; padding: 13px 20px; color: #fff; background: #3867d6; border-radius: 30px; font: bold .9rem Arial, sans-serif; text-decoration: none; }
+		a:hover { background: #ef6f61; }
+		@media (max-width: 520px) { .page { padding: 32px 26px; } }
+	</style>
+</head>
+<body>
+	<main class="page">
+		<div class="number">Pertemuan 01 / Halaman 2</div>
+		<h1>Terus eksplorasi.</h1>
+		<p>Setiap halaman baru adalah kesempatan untuk mencoba struktur, warna, dan ide yang berbeda. Ini langkah kecil berikutnya dalam perjalanan web-mu.</p>
+		<a href="../index.html">Kembali ke halaman utama</a>
+	</main>
+</body>
+</html>
